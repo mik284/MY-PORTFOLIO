@@ -23,4 +23,6 @@ From Lower level to Where am currently enrolled
 * Youtube community: Net Ninja
 * 30 seconds of code
 * code pen 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/93104372-2669-43d2-a472-a96f4f7a0836/deploy-status)](https://app.netlify.com/sites/michaelsportfolio/deploys)
+
+
+# [![Netlify Status](https://api.netlify.com/api/v1/badges/93104372-2669-43d2-a472-a96f4f7a0836/deploy-status)](https://app.netlify.com/sites/michaelsportfolio/deploys)
