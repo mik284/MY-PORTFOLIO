@@ -682,30 +682,28 @@
 								});
 							});*/
 
-// 							var submitButton = document.getElementById("submit_form"); //get the submit button
-// 							var form = document.getElementById("email_form");//get the form
-// 							form.addEventListener("submit", function (e) {//when the form is submitted
-// 								setTimeout(function () {//wait for 1 second
-// 									submitButton.value = "Sending...";//change the value of the submit button to Sending...
-// 									submitButton.disabled = true;//disable the submit button
-// 								}, 1);
-// 							});
-							document
-								  .querySelector("form")
-								  .addEventListener("submit", handleSubmit);
+							var submitButton = document.getElementById("submit_form"); //get the submit button
+							var form = document.getElementById("email_form");//get the form
+							form.addEventListener("submit", function (e) {//when the form is submitted
+								setTimeout(function () {//wait for 1 second
+									submitButton.value = "Sending...";//change the value of the submit button to Sending...
+									submitButton.disabled = true;//disable the submit button
+								}, 1);
+							});
+// 							document.querySelector("form").addEventListener("submit", handleSubmit);
 
-								const handleSubmit = (e) => {
-								  e.preventDefault();
-								  let myForm = document.getElementById("pizzaOrder");
-								  let formData = new FormData(myForm);
-								  fetch("/", {
-								    method: "POST",
-								    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-								    body: new URLSearchParams(formData).toString(),
-								  })
-								    .then(() => console.log("Form successfully submitted"))
-								    .catch((error) => alert(error));
-								};
+// 								const handleSubmit = (e) => {
+// 								  e.preventDefault();
+// 								  let myForm = document.getElementById("pizzaOrder");
+// 								  let formData = new FormData(myForm);
+// 								  fetch("/", {
+// 								    method: "POST",
+// 								    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+// 								    body: new URLSearchParams(formData).toString(),
+// 								  })
+// 								    .then(() => console.log("Form successfully submitted"))
+// 								    .catch((error) => alert(error));
+// 								};
 
 						</script>
 
